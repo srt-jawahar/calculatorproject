@@ -18,7 +18,7 @@ public class Calculator
 	@GetMapping("add")
 	public String add(CalculatorCondition calculatorCondition)
 	{
-		int c = calculatorCondition.addition(10, 20);
+		int c = calculatorCondition.addition(130, 20);
 		return "The Value is: "+c;
 	}
 	
