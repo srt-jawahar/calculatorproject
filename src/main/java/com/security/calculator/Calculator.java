@@ -21,4 +21,11 @@ public class Calculator
 		int c = calculatorCondition.addition(10, 20);
 		return "The Value is: "+c;
 	}
+	
+	@GetMapping("multiple")
+	public String multiple(CalculatorCondition calculatorCondition)
+	{
+		int c = calculatorCondition.multiply(10, 10);
+		return "The Product is : "+c;
+	}
 }
